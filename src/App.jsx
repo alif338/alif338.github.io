@@ -8,33 +8,45 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <h2>Under Development</h2>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
+          Reach me:
         </p>
         <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
+        <a
             className="App-link"
-            href="https://reactjs.org"
+            href="mailto:m.alifdarmamulia@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            E-mail
           </a>
           {' | '}
           <a
             className="App-link"
-            href="https://vitejs.dev/guide/features.html"
+            href="https://www.linkedin.com/in/muhammad-alif-d-4aaa561a9/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Vite Docs
+            Linkedin
+          </a>
+          {' | '}
+          <a
+            className="App-link"
+            href="https://www.instagram.com/aliefdharm/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          {' | '}
+          <a
+            className="App-link"
+            href="https://github.com/alif338/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
           </a>
         </p>
       </header>
