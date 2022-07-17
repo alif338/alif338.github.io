@@ -5,13 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Under Development</h2>
-        <p>
-          Reach me:
-        </p>
+        <div className='app-profile'></div>
+        <h2>Muhammad Alif Darmamulia</h2>
+        <p>Software Engineer</p>
       </header>
       <section className='app-section'>
-        <SocialMedia />
+        <div className='social-media'>
+          <SocialMedia />
+        </div>
+        <div className='experiences'></div>
       </section>
     </div>
   )
