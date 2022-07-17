@@ -1,9 +1,6 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { SocialMedia } from './components/SocialMedia'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -12,44 +9,10 @@ function App() {
         <p>
           Reach me:
         </p>
-        <p>
-        <a
-            className="App-link"
-            href="mailto:m.alifdarmamulia@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            E-mail
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/muhammad-alif-d-4aaa561a9/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Linkedin
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://www.instagram.com/aliefdharm/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://github.com/alif338/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-        </p>
       </header>
+      <section className='app-section'>
+        <SocialMedia />
+      </section>
     </div>
   )
 }
