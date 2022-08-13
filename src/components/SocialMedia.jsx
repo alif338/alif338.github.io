@@ -2,42 +2,19 @@ import React from 'react';
 
 export function SocialMedia() {
   return (
-    <p>
-      <a
-        className="App-link"
-        href="mailto:m.alifdarmamulia@gmail.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        E-mail
-      </a>
-      {' | '}
-      <a
-        className="App-link"
-        href="https://www.linkedin.com/in/muhammad-alif-d-4aaa561a9/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Linkedin
-      </a>
-      {' | '}
-      <a
-        className="App-link"
-        href="https://www.instagram.com/aliefdharm/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Instagram
-      </a>
-      {' | '}
-      <a
-        className="App-link"
-        href="https://github.com/alif338/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Github
-      </a>
-    </p>
+    <div className='social-media'>
+      <div className='account-btn' onClick={() => window.location = 'https://github.com/alif338'}>
+        <img src='/assets/github.png' alt='github'/>
+      </div>
+      <div className='account-btn' onClick={() => window.location = 'https://instagram.com/aliefdharm'}>
+        <img src='/assets/instagram.png' alt='instagram'/>
+      </div>
+      <div className='account-btn' onClick={() => window.location = 'https://www.linkedin.com/in/muhammad-alif-d-4aaa561a9/'}>
+        <img src='/assets/linkedin.png' alt='linkedin'/>
+      </div>
+      <div className='account-btn' onClick={() => window.location = 'mailto:m.alifdarmamulia@gmail.com'}>
+        <img src='/assets/email.png' alt='email'/>
+      </div>
+    </div>
   )
 }
