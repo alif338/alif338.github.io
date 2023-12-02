@@ -1,23 +1,18 @@
-import { SocialMedia } from './components/SocialMedia'
+import { Route, Router, Routes } from "react-router-dom";
+import Home from "./Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='app-profile'></div>
-        <h2>Muhammad Alif Darmamulia</h2>
-        <p>Fullstack Developer</p>
-      </header>
-      <section className='app-section'>
-        <h1 style={{color: 'white', fontSize: '20pt'}}>Under Development</h1>
-        <div className='social-media'>
-          <SocialMedia />
-        </div>
-        <div className='experiences'></div>
-      </section>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
