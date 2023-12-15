@@ -146,7 +146,7 @@ footer #social-media img:hover {
   }
 
   .App-header .bodycontent-left img {
-    height: calc(100vw * 0.8);
+    height: calc(100vw * 0.9);
   }
 
   .App-header .bodycontent-right {
@@ -158,7 +158,16 @@ footer #social-media img:hover {
   }
 
   .App-header .bodycontent-right p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  header .navbar-item p {
+    display: none;
   }
 
   footer {
