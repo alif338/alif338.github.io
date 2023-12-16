@@ -32,7 +32,7 @@ function Header() {
         <Link to={"/projects"}>
           <div className="navbar-item">
             <img src={projects} />
-            <p>Projects</p>
+            <p>Projects & Volunteerings</p>
           </div>
         </Link>
         <Link to={"/researchs"}>
