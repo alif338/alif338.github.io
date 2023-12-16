@@ -2,6 +2,7 @@ import React from "react";
 
 import about from "./../assets/about.svg";
 import works from "./../assets/works.svg";
+import education from "./../assets/education.svg";
 import projects from "./../assets/projects.svg";
 import researchs from "./../assets/researchs.svg";
 import { Link } from "react-router-dom";
@@ -14,6 +15,12 @@ function Header() {
           <div className="navbar-item">
             <img src={about} />
             <p>About</p>
+          </div>
+        </Link>
+        <Link to={"/education"}>
+          <div className="navbar-item">
+            <img src={education} />
+            <p>Education</p>
           </div>
         </Link>
         <Link to={"/work-experience"}>

@@ -95,6 +95,10 @@ header {
   padding: 0 20px;
 }
 
+.navbar a .navbar-item img {
+  height: 25px;
+}
+
 .navbar .navbar-item:hover {
   cursor: pointer;
   background-color: #000035;
