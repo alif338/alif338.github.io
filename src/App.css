@@ -134,7 +134,7 @@ header {
 }
 
 .list .card .card-left img {
-  max-height: 160px;
+  max-width: 160px;
 }
 
 .list .card .card-right {
@@ -227,7 +227,7 @@ footer #social-media img:hover {
   }
 
   .list .card .card-left img {
-    max-height: 100px;
+    max-width: 100px;
   }
 
   .list .card .card-left {
