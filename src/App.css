@@ -211,6 +211,11 @@ footer #social-media img:hover {
 
   header {
     padding: 10px 0;
+    height: 45px;
+  }
+
+  header .navbar {
+    height: 45px;
   }
 
   header .navbar-item p {
@@ -222,15 +227,19 @@ footer #social-media img:hover {
   }
 
   .list .card .card-left img {
-    max-height: 120px;
+    max-height: 100px;
   }
 
   .list .card .card-left {
     padding: 20px 0px 0 20px;
   }
 
+  .list .card .card-right p {
+    margin: 10px 0;
+  }
+
   .list .card ul {
-    padding-inline-start: 30px;
+    padding-inline-start: 20px;
     list-style-type: square;
   }
 
