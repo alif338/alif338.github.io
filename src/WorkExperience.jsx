@@ -21,6 +21,9 @@ import github from "./assets/tools/github.svg";
 import figma from "./assets/tools/figma.svg";
 import flutter from "./assets/tools/flutter.svg";
 import metamask from "./assets/tools/metamask.svg";
+import firebase from "./assets/tools/firebase.svg";
+import supabase from "./assets/tools/supabase.svg";
+import gcloud from "./assets/tools/gcloud.svg";
 import mysql from "./assets/tools/mysql.png";
 
 export default function WorkExperience() {
@@ -115,6 +118,7 @@ export default function WorkExperience() {
             <img src={postman} />
             <img src={kafka} />
             <img src={postgresql} />
+            <img src={gcloud} />
             <img src={rancher} />
             <img src={vault} />
           </div>
@@ -236,6 +240,7 @@ export default function WorkExperience() {
             <img src={node} />
             <img src={react} />
             <img src={php} />
+            <img src={firebase} />
             <img src={flutter} />
             <img src={postman} />
             <img src={mysql} />
@@ -294,6 +299,7 @@ export default function WorkExperience() {
             <img src={react} />
             <img src={php} />
             <img src={metamask} />
+            <img src={supabase} />
           </div>
         </div>
       </div>
