@@ -218,15 +218,20 @@ footer #social-media img:hover {
   }
 
   .list {
-    padding: 10px 5vw 20px;
+    padding: 10px 4vw 20px;
   }
 
   .list .card .card-left img {
-    max-height: 140px;
+    max-height: 120px;
   }
 
   .list .card .card-left {
-    padding: 20px;
+    padding: 20px 0px 0 20px;
+  }
+
+  .list .card ul {
+    padding-inline-start: 30px;
+    list-style-type: square;
   }
 
   .list .card ul li {
