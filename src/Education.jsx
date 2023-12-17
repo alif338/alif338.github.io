@@ -19,8 +19,8 @@ export default function Education() {
             <div className="card-right">
               <h2>Institut Teknologi Bandung (ITB)</h2>
               <p>
-                Bachelor of Science (B.Sc), Mathematics (CGPA 3.44/4.00, 146
-                credits)
+                <strong>Bachelor of Science (B.Sc), Mathematics</strong> (CGPA
+                3.44/4.00, 146 credits)
               </p>
               <p>
                 August 2019 - July 2023 (finished final's seminar at February
@@ -52,7 +52,11 @@ export default function Education() {
             </div>
             <div className="card-right">
               <h2>GoTo Impact Foundation</h2>
-              <p>Generasi GIGIH 2.0 Graduate - Backend Engineering</p>
+              <p>
+                <strong>
+                  Generasi GIGIH 2.0 Graduate - Backend Engineering
+                </strong>
+              </p>
               <p>February 2022 - June 2022</p>
               <p>Jakarta Metropolitan Area, Indonesia (Remote)</p>
             </div>
@@ -67,8 +71,7 @@ export default function Education() {
               </i>
             </li>
             <li>
-              <u>Final Project</u>:{" "}
-              <i>E-Medical Record API Services</i>
+              <u>Final Project</u>: <i>E-Medical Record API Services</i>
             </li>
           </ul>
         </div>

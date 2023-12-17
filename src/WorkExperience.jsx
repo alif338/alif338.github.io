@@ -2,6 +2,26 @@ import React from "react";
 import telkom from "./assets/telkom-indonesia.png";
 import mahadatacn from "./assets/mahadatacn.jpeg";
 import p2ms from "./assets/p2ms.png";
+import dbeaver from "./assets/tools/dbeaver.png";
+import gitlab from "./assets/tools/gitlab.svg";
+import golang from "./assets/tools/golang.svg";
+import jenkins from "./assets/tools/jenkins.svg";
+import jira from "./assets/tools/jira.svg";
+import kafka from "./assets/tools/kafka.svg";
+import node from "./assets/tools/node.svg";
+import postgresql from "./assets/tools/postgresql.svg";
+import postman from "./assets/tools/postman.svg";
+import rancher from "./assets/tools/rancher.svg";
+import vault from "./assets/tools/vault.svg";
+import vue from "./assets/tools/vue.svg";
+import trello from "./assets/tools/trello.svg";
+import react from "./assets/tools/react.svg";
+import php from "./assets/tools/php.svg";
+import github from "./assets/tools/github.svg";
+import figma from "./assets/tools/figma.svg";
+import flutter from "./assets/tools/flutter.svg";
+import metamask from "./assets/tools/metamask.svg";
+import mysql from "./assets/tools/mysql.png";
 
 export default function WorkExperience() {
   return (
@@ -82,6 +102,22 @@ export default function WorkExperience() {
               products are expanded to any great Island of Indonesia.
             </li>
           </ul>
+          <i>
+            <u>Tools used:</u>
+          </i>
+          <div className="tools-list">
+            <img src={jira} />
+            <img src={gitlab} />
+            <img src={dbeaver} />
+            <img src={node} />
+            <img src={golang} />
+            <img src={jenkins} />
+            <img src={postman} />
+            <img src={kafka} />
+            <img src={postgresql} />
+            <img src={rancher} />
+            <img src={vault} />
+          </div>
         </div>
         <div className="card">
           <div className="card-header">
@@ -137,6 +173,18 @@ export default function WorkExperience() {
               .
             </li>
           </ul>
+          <i>
+            <u>Tools used:</u>
+          </i>
+          <div className="tools-list">
+            <img src={trello} />
+            <img src={gitlab} />
+            <img src={dbeaver} />
+            <img src={vue} />
+            <img src={node} />
+            <img src={postman} />
+            <img src={postgresql} />
+          </div>
         </div>
         <div className="card">
           <div className="card-header">
@@ -177,6 +225,21 @@ export default function WorkExperience() {
               .
             </li>
           </ul>
+          <i>
+            <u>Tools used:</u>
+          </i>
+          <div className="tools-list">
+            <img src={figma} />
+            <img src={github} />
+            <img src={dbeaver} />
+            <img src={vue} />
+            <img src={node} />
+            <img src={react} />
+            <img src={php} />
+            <img src={flutter} />
+            <img src={postman} />
+            <img src={mysql} />
+          </div>
         </div>
         <div className="card">
           <div className="card-header">
@@ -226,6 +289,12 @@ export default function WorkExperience() {
               .
             </li>
           </ul>
+          <div className="tools-list">
+            <img src={figma} />
+            <img src={react} />
+            <img src={php} />
+            <img src={metamask} />
+          </div>
         </div>
       </div>
     </>

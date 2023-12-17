@@ -141,6 +141,18 @@ header {
   text-align: left;
 }
 
+.list .card .tools-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.list .card .tools-list img {
+  max-height: 50px;
+}
+
 footer {
   height: 40px;
   bottom: 0px;
@@ -226,6 +238,10 @@ footer #social-media img:hover {
     padding: 10px 4vw 20px;
   }
 
+  .list .card {
+    font-weight: 400;
+  }
+
   .list .card .card-left img {
     max-width: 100px;
   }
@@ -245,6 +261,10 @@ footer #social-media img:hover {
 
   .list .card ul li {
     margin-bottom: 8px;
+  }
+
+  .list .card .tools-list img {
+    max-height: 45px;
   }
 
   footer {
