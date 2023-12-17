@@ -37,7 +37,7 @@ export default function WorkExperience() {
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={telkom} />
+              <img src={telkom} alt="telkom" />
             </div>
             <div className="card-right">
               <h2>Telkom Indonesia</h2>
@@ -109,24 +109,24 @@ export default function WorkExperience() {
             <u>Tools used:</u>
           </i>
           <div className="tools-list">
-            <img src={jira} />
-            <img src={gitlab} />
-            <img src={dbeaver} />
-            <img src={node} />
-            <img src={golang} />
-            <img src={jenkins} />
-            <img src={postman} />
-            <img src={kafka} />
-            <img src={postgresql} />
-            <img src={gcloud} />
-            <img src={rancher} />
-            <img src={vault} />
+            <img src={jira} alt="jira" />
+            <img src={gitlab} alt="gitlab" />
+            <img src={dbeaver} alt="dbeaver" />
+            <img src={node} alt="node" />
+            <img src={golang} alt="golang" />
+            <img src={jenkins} alt="jenkins" />
+            <img src={postman} alt="postman" />
+            <img src={kafka} alt="kafka" />
+            <img src={postgresql} alt="postgresql" />
+            <img src={gcloud} alt="gcloud" />
+            <img src={rancher} alt="rancher" />
+            <img src={vault} alt="vault" />
           </div>
         </div>
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={telkom} />
+              <img src={telkom} alt="telkom" />
             </div>
             <div className="card-right">
               <h2>Telkom Indonesia</h2>
@@ -181,19 +181,19 @@ export default function WorkExperience() {
             <u>Tools used:</u>
           </i>
           <div className="tools-list">
-            <img src={trello} />
-            <img src={gitlab} />
-            <img src={dbeaver} />
-            <img src={vue} />
-            <img src={node} />
-            <img src={postman} />
-            <img src={postgresql} />
+            <img src={trello} alt="trello" />
+            <img src={gitlab} alt="gitlab" />
+            <img src={dbeaver} alt="dbeaver" />
+            <img src={vue} alt="vue" />
+            <img src={node} alt="node" />
+            <img src={postman} alt="postman" />
+            <img src={postgresql} alt="postgresql" />
           </div>
         </div>
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={mahadatacn} />
+              <img src={mahadatacn} alt="mahadatacn" />
             </div>
             <div className="card-right">
               <h2>PT Mahadata Citra Nusantara</h2>
@@ -233,23 +233,23 @@ export default function WorkExperience() {
             <u>Tools used:</u>
           </i>
           <div className="tools-list">
-            <img src={figma} />
-            <img src={github} />
-            <img src={dbeaver} />
-            <img src={vue} />
-            <img src={node} />
-            <img src={react} />
-            <img src={php} />
-            <img src={firebase} />
-            <img src={flutter} />
-            <img src={postman} />
-            <img src={mysql} />
+            <img src={figma} alt="figma" />
+            <img src={github} alt="github" />
+            <img src={dbeaver} alt="dbeaver" />
+            <img src={vue} alt="vue" />
+            <img src={node} alt="node" />
+            <img src={react} alt="react" />
+            <img src={php} alt="php" />
+            <img src={firebase} alt="firebase" />
+            <img src={flutter} alt="flutter" />
+            <img src={postman} alt="postman" />
+            <img src={mysql} alt="mysql" />
           </div>
         </div>
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={p2ms} />
+              <img src={p2ms} alt="p2ms" />
             </div>
             <div className="card-right">
               <h2>Pusat Pemodelan dan Simulasi ITB</h2>
@@ -295,11 +295,11 @@ export default function WorkExperience() {
             </li>
           </ul>
           <div className="tools-list">
-            <img src={figma} />
-            <img src={react} />
-            <img src={php} />
-            <img src={metamask} />
-            <img src={supabase} />
+            <img src={figma} alt="figma" />
+            <img src={react} alt="react" />
+            <img src={php} alt="php" />
+            <img src={metamask} alt="metamask" />
+            <img src={supabase} alt="supabase" />
           </div>
         </div>
       </div>

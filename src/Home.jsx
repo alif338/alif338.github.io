@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="App-header">
       <div className="bodycontent-left">
-        <img src={profile} className="app-profile" />
+        <img src={profile} className="app-profile" alt="app-profile"/>
       </div>
       <div className="bodycontent-right">
         <h2>Muhammad Alif Darmamulia, S.Si</h2>

@@ -14,7 +14,7 @@ export default function Education() {
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={itb} />
+              <img src={itb} alt="itb"/>
             </div>
             <div className="card-right">
               <h2>Institut Teknologi Bandung (ITB)</h2>
@@ -48,7 +48,7 @@ export default function Education() {
         <div className="card">
           <div className="card-header">
             <div className="card-left">
-              <img src={yabb} />
+              <img src={yabb} alt="yabb"/>
             </div>
             <div className="card-right">
               <h2>GoTo Impact Foundation</h2>

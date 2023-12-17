@@ -13,16 +13,16 @@ function Footer() {
       <div id="social-media">
         <p>Contact Me:</p>
         <a href="mailto:m.alifdarmamulia@gmail.com">
-          <img src={email} />
+          <img src={email} alt="email" />
         </a>
         <a href="https://github.com/alif338" target="_blank">
-          <img src={github} />
+          <img src={github} alt="github" />
         </a>
         <a href="https://www.instagram.com/aliefdharm/" target="_blank">
-          <img src={instagram} />
+          <img src={instagram} alt="instagram" />
         </a>
         <a href="https://www.linkedin.com/in/muhammad-alif-d/" target="_blank">
-          <img src={linkedin} />
+          <img src={linkedin} alt="linkedin" />
         </a>
       </div>
     </footer>
