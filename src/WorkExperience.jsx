@@ -25,6 +25,9 @@ import firebase from "./assets/tools/firebase.svg";
 import supabase from "./assets/tools/supabase.svg";
 import gcloud from "./assets/tools/gcloud.svg";
 import mysql from "./assets/tools/mysql.png";
+import sonarqube from "./assets/tools/sonarqube.svg";
+import laravel from "./assets/tools/laravel.svg";
+import nuxt from "./assets/tools/nuxt.svg";
 
 export default function WorkExperience() {
   return (
@@ -114,7 +117,9 @@ export default function WorkExperience() {
             <img src={dbeaver} alt="dbeaver" />
             <img src={node} alt="node" />
             <img src={golang} alt="golang" />
+            <img src={php} alt="php" />
             <img src={jenkins} alt="jenkins" />
+            <img src={sonarqube} alt="sonarqube" />
             <img src={postman} alt="postman" />
             <img src={kafka} alt="kafka" />
             <img src={postgresql} alt="postgresql" />
@@ -236,10 +241,10 @@ export default function WorkExperience() {
             <img src={figma} alt="figma" />
             <img src={github} alt="github" />
             <img src={dbeaver} alt="dbeaver" />
-            <img src={vue} alt="vue" />
+            <img src={nuxt} alt="nuxt" />
             <img src={node} alt="node" />
             <img src={react} alt="react" />
-            <img src={php} alt="php" />
+            <img src={laravel} alt="laravel" />
             <img src={firebase} alt="firebase" />
             <img src={flutter} alt="flutter" />
             <img src={postman} alt="postman" />
