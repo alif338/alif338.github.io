@@ -196,6 +196,23 @@ footer #social-media img:hover {
   border-radius: 10px;
 }
 
+.list .card .desc-mobile {
+  display: none;
+}
+
+.project-showcase {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.project-showcase img {
+  max-height: 180px;
+  border: 1px solid #000035;
+}
+
 @media only screen and (max-width: 768px) {
   .App-header {
     flex-direction: column;
@@ -265,6 +282,23 @@ footer #social-media img:hover {
 
   .list .card .tools-list img {
     max-height: 45px;
+  }
+
+  .list .card .desc-desktop {
+    display: none;
+  }
+
+  .list .card .desc-mobile {
+    display: block;
+  }
+  
+  .list .card .project-showcase {
+    grid-template-columns: auto;
+    max-height: none;
+  }
+
+  .list .card .project-showcase img {
+    max-width: 100%;
   }
 
   footer {
