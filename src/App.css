@@ -208,6 +208,10 @@ footer #social-media img:hover {
   row-gap: 20px;
 }
 
+.mobile {
+  grid-template-columns: auto auto auto auto auto !important;
+}
+
 .project-showcase img {
   max-height: 180px;
   border: 1px solid #000035;
@@ -295,6 +299,10 @@ footer #social-media img:hover {
   .list .card .project-showcase {
     grid-template-columns: auto;
     max-height: none;
+  }
+
+  .mobile {
+    grid-template-columns: auto auto !important;
   }
 
   .list .card .project-showcase img {

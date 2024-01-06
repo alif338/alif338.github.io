@@ -7,7 +7,7 @@ import gitlab from "./assets/tools/gitlab.svg";
 import golang from "./assets/tools/golang.svg";
 import jenkins from "./assets/tools/jenkins.svg";
 import jira from "./assets/tools/jira.svg";
-import kafka from "./assets/tools/kafka.svg";
+import kafka from "./assets/tools/kafka.png";
 import node from "./assets/tools/node.svg";
 import postgresql from "./assets/tools/postgresql.svg";
 import postman from "./assets/tools/postman.svg";

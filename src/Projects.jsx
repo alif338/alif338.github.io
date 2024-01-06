@@ -278,7 +278,7 @@ export default function Projects() {
           <p className="desc-mobile">
             An implementation of https://kuisioner.com webapp through mobile
             native. It developed using flutter, which can used at multiplatform
-            so that more variance users can use this app. • This project was
+            so that more variance users can use this app. This project was
             deployed to Play Store with 100+ users (in playstore it named
             “Kuisioner People Enpowers App”).
           </p>
@@ -286,7 +286,7 @@ export default function Projects() {
           <i>
             <u>Project Showcases:</u>
           </i>
-          <div className="project-showcase">
+          <div className="project-showcase mobile">
             <img src={kuisioner1} alt="kuisioner1" />
             <img src={kuisioner2} alt="kuisioner2" />
             <img src={kuisioner3} alt="kuisioner3" />
