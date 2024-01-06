@@ -28,6 +28,8 @@ import mysql from "./assets/tools/mysql.png";
 import sonarqube from "./assets/tools/sonarqube.svg";
 import laravel from "./assets/tools/laravel.svg";
 import nuxt from "./assets/tools/nuxt.svg";
+import jmeter from "./assets/tools/jmeter.svg";
+import nginx from "./assets/tools/nginx.svg";
 
 export default function WorkExperience() {
   return (
@@ -126,6 +128,7 @@ export default function WorkExperience() {
             <img src={gcloud} alt="gcloud" />
             <img src={rancher} alt="rancher" />
             <img src={vault} alt="vault" />
+            <img src={jmeter} alt="jmeter" />
           </div>
         </div>
         <div className="card">
@@ -248,6 +251,7 @@ export default function WorkExperience() {
             <img src={firebase} alt="firebase" />
             <img src={flutter} alt="flutter" />
             <img src={postman} alt="postman" />
+            <img src={nginx} alt="nginx" />
             <img src={mysql} alt="mysql" />
           </div>
         </div>
