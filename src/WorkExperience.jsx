@@ -1,4 +1,5 @@
 import React from "react";
+import cadit from "./assets/cad-it.png";
 import telkom from "./assets/telkom-indonesia.png";
 import mahadatacn from "./assets/mahadatacn.jpeg";
 import p2ms from "./assets/p2ms.png";
@@ -42,6 +43,27 @@ export default function WorkExperience() {
         <div className="card">
           <div className="card-header">
             <div className="card-left">
+              <img src={cadit} alt="cadit" />
+            </div>
+            <div className="card-right">
+              <h2>CAD-IT Consultant Asia</h2>
+              <p>
+                <strong>Associate IoT Application Developer</strong> - <i>Full Time</i>
+              </p>
+              <p>March 2024 - now</p>
+              <p>Bandung, Indonesia (On Site)</p>
+            </div>
+          </div>
+          <i>
+            <u>Project scope:</u>
+          </i>{" "}
+          NodeLinx
+          <br></br>
+          <br></br>
+        </div>
+        <div className="card">
+          <div className="card-header">
+            <div className="card-left">
               <img src={telkom} alt="telkom" />
             </div>
             <div className="card-right">
@@ -49,7 +71,7 @@ export default function WorkExperience() {
               <p>
                 <strong>Backend Developer</strong> - <i>Freelance</i>
               </p>
-              <p>January 2023 - now</p>
+              <p>January 2023 - February 2024</p>
               <p>Bandung, Indonesia (On Site)</p>
             </div>
           </div>

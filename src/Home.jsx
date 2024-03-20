@@ -8,7 +8,7 @@ function Home() {
       </div>
       <div className="bodycontent-right">
         <h2>Muhammad Alif Darmamulia, S.Si</h2>
-        <p>Backend Developer @Telkom Indonesia</p>
+        <p>Associate IoT Application Developer @CAD-IT Consultant Asia</p>
         <p>Bachelor's Degree, Mathematics ITB (Currently Freshgraduate)</p>
         <p>Bandung, West Java, Indonesia 40195</p>
       </div>
